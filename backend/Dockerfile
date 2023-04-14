@@ -14,6 +14,8 @@ RUN npm install npm@latest -g && \
     npm install n -g && \
     n latest
 
+RUN npm install -D tailwindcss
+
 ENV VIRTUAL_ENV /env
 ENV PATH /env/bin:$PATH
 ENV DJANGO_SETTINGS_MODULE=project.settings
@@ -27,4 +29,3 @@ RUN python setup.py develop
 
 COPY ./backend/start.sh /
 
-RUN npm install -D tailwindcss
