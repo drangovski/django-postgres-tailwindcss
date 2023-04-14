@@ -40,6 +40,7 @@ To install Tailwind CSS just follow up this steps:
 - Access the Docker container through the terminal
 ```
 docker exec -it project-django bash
+cd backend
 ```
 
 - Install Tailwind CSS
