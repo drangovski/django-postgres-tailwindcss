@@ -33,7 +33,27 @@ docker-compose build
 docker-compose up
 ```
 
-This should set up the containers for Postgres and Django and it should start your project on 
+### 4. Installing and running Tailwind CSS
+
+To install Tailwind CSS just follow up this steps:
+
+- Access the Docker container through the terminal
+```
+docker exec -it project-django bash
+```
+
+- Install Tailwind CSS
+```
+npm install -D tailwindcss
+```
+
+- Run the Tailwind CSS script in order to watch for CSS changes
+```
+npm run dev
+```
+
+This should set up the containers for Postgres and Django, install Tailwind CSS, and it should start your project on 
 ```
 http://localhost:8000
 ```
+
