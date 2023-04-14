@@ -1,4 +1,4 @@
-.env.example
+.env
+__pycache__
+backend/node_modules
 .DS_Store
-.idea/
-__pycache__/
