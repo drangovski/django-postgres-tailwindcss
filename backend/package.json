@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "dev": "tailwindcss -i /app/backend/project/static/input.css -o /app/backend/static/style.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.1"
+  }
+}
