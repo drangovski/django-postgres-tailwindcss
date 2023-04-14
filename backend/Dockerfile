@@ -26,3 +26,5 @@ COPY backend /app/backend
 RUN python setup.py develop
 
 COPY ./backend/start.sh /
+
+RUN npm install -D tailwindcss
