@@ -14,7 +14,7 @@ RUN npm install npm@latest -g && \
     npm install n -g && \
     n latest
 
-RUN npm install -D tailwindcss
+
 
 ENV VIRTUAL_ENV /env
 ENV PATH /env/bin:$PATH
