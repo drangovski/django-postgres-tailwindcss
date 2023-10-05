@@ -6,7 +6,7 @@ To start using it for your project be sure to have Docker installed on your mach
 
 ### 1. Clone the repo in your projects folder
 ```
-git clone git@github.com:drangovski/django-postgres-boilerplate.git
+git clone git@github.com:drangovski/django-postgres-tailwind.git
 ```
 
 ### 2. Create the .env file
